@@ -1,7 +1,7 @@
 {
   "name": "flow-ceil",
   "version": "0.0.0",
-  "description": "Transform stream factory to round streamed numeric data values to positive infinity (ceil).",
+  "description": "Transform stream factory to round streamed numeric data values toward positive infinity (ceil).",
   "author": {
     "name": "Athan Reines",
     "email": "athan@nodeprime.com"

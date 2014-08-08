@@ -1,7 +1,7 @@
 flow-ceil
 =========
 
-Transform stream factory to round streamed numeric data values to positive infinity ([ceil](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)).
+Transform stream factory to round streamed numeric data values toward positive infinity ([ceil](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)).
 
 
 ## Installation
@@ -23,7 +23,7 @@ var cStream = ceilStream();
 
 ### cStream.stream()
 
-To create a new stream to round streamed numeric values to positive infinity,
+To create a new stream to round streamed numeric values toward positive infinity,
 
 ``` javascript
 var stream = cStream.stream();
